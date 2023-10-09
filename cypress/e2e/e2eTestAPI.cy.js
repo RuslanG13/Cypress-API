@@ -25,9 +25,6 @@ describe("API Automation In Cypress", () => {
             cy.deleteAPI(userId).then((response) => {
                 expect(response.status).to.be.equal(204);
             })
-
         })
-
     })
-
 })
